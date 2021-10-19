@@ -1,8 +1,9 @@
-
+## Required
+* Docker
 ## Usage
 
 ```bash
-$ docker-compose down -v && docker-compose up
+ sudo docker stop $(sudo docker ps -qa) && docker-compose up
 ```
 ## inside continer execut
 
